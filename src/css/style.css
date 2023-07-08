@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --border: 2px solid blueviolet;
+    --maincolor:rgb(163, 128, 196);
+}
+
+.container2 {
+    border: var(--border);
+    padding: 20px;
+    margin: 20px;
+    /* height: 600px; */
+}
+
+.container2 h1 {
+    color: #fff;
+    background-color: var(--maincolor);
+    padding: 20px;
+    text-align: center;
+}
+
+/* buttons style */
+.buttonsgroup {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonsgroup button {
+    border: none;
+    outline: none;
+    padding: 2em 3em;
+    color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+    transition: .3s;
+}
+
+.buttonsgroup button:hover {
+    background: var(--maincolor);
+    color: #fff;
+}
+
+.imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imagebox img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+#imagebox2 {
+    display: none;
+}
+
+#imagebox3 {
+    display: none;
+}
+/* }
+.cards1 {
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    background: rgba(219, 206, 231, 0.866);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 p {
+    color: rgba(186, 186, 186, 0.597);
+}
+.card1 img {
+    width: 80%;
+    transition: 0.4s;
+}
+
+.card1 i {
+    position: absolute;
+    transition: 0.5s;
+    bottom: -30px;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+}
+.category {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-family: cursive;
+}
+
+.category button {
+    border: 2px solid blueviolet;
+    font-size: 18px;
+    gap: 30px;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #9766aaba;
+    transition: .3s;
+}
+
+.category button:hover {
+
+    box-shadow: 0 0 5px 6px #8c06c17b;
+}
+.trick {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trick .text {
+    color: rgb(8, 6, 6);
+    font-size: 36px;
+} */

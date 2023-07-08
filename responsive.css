@@ -1,0 +1,149 @@
+@media (max-width:800px){
+
+    .container{
+        max-width: 800px;
+    }
+    .next .user a:not(){
+        display: none;
+    }
+    * {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+		font-family: Montserrat;
+		letter-spacing: 1px;
+		--border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+   
+	.icon {
+		position: absolute;
+		border-radius: 10px;
+		width: 60px;
+		height: 60px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		right: -80px;
+		top: 20px;
+		background: blueviolet;
+		cursor: pointer;
+		overflow: hidden;
+	}
+
+	.icon span {
+		display: block;
+		width: 100%;
+		height: 5px;
+		background: #fff;
+		border-radius: 3px;
+		transition: .5s;
+		position: absolute;
+		width: 70%;
+	}
+
+	.icon span:first-child {
+		transform: translateY(-15px);
+	}
+
+	.icon span:last-child {
+		transform: translateY(15px);
+	}
+
+	.content {
+        z-index: 1;
+		position: relative;
+		width: 300px;
+		transition: 1s ease;
+		left: 0;
+		top: 0;
+		transform: translateX(-100%);
+		position: fixed;
+		height: 100%;
+	}
+
+	.content .next {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		height: 100%;
+	}
+    .content .next img{
+        margin: 20px;
+    }
+	.content .next a {
+        padding: 10px;
+		color: #fff;
+		padding: 20px;
+		transition: .5s ease;
+	}
+
+	.content .next a:hover {
+        border-bottom:1px solid rgb(167, 110, 219) ;
+		color: rgb(255, 255, 0);
+	}
+
+	input {
+		position: absolute;
+		cursor: pointer;
+		-webkit-appearance: none;
+		visibility: hidden;
+	}
+
+	#check:checked ~ .content {
+		transform: translate(0);
+	}
+
+	#check:checked ~ .content span:nth-child(2) {
+		transform: translateX(50px);
+	}
+
+	#check:checked ~ .content span:nth-child(1) {
+		transform: rotate(45deg);
+	}
+
+	#check:checked ~ .content span:nth-child(3) {
+		transform: rotate(135deg);
+	}
+   .text {
+       margin : 20px;
+       width: 500px;
+    }
+    .text h1, h4{
+        font-size: 40px;
+        left: 0;
+    }
+
+	.buttonsgroup {
+		justify-content: space-between;
+		gap: 10px;
+	}
+    
+    .buttonsgroup button{
+        border-radius: 20px;
+		padding: 10px 25px;
+    }
+    .help-for-ace{
+        padding: 25px;
+    }
+    .vets{
+        display: flex;
+        flex-direction: column;
+    }
+    .vets .box{
+        padding: 20px;
+    }
+    .foot{
+        padding: 20px;
+    }
+    .foot p{
+        font-size: large;
+    }
+
+	.imagebox img {
+		width: 100%!important;
+		padding: unset;
+		margin-bottom: 20px;
+	}
+}

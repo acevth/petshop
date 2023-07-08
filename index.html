@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>ACEPETSHOP</title>
+    
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="check">
+
+        <div class="content">
+            <label class="icon" for="check">
+               <span></span>
+               <span></span>
+               <span></span>
+            </label>
+            <div class="next">
+               <img src="PETSHOP_free-file.png" width="90px">
+               <a href="#">Главная страница </a>
+               <a href="#pets">Животные</a>
+               <a href="#vets">помощь приюту</a>
+               <a href="#info">Полезная информация </a>
+               <div id="user">
+                   <a href="registration.html"><i class="fa-solid fa-user"></i></a>
+                   <a href=""><i class="fa-regular fa-heart"></i></a>
+                   <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+               </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="text">
+                <div class="glass~">
+                    <h1>Помощь четвероногим друзьям в Нукусе </h1>
+                    <h4>Вы можете найти здесь верного друга и любимого питомца</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container2" id="pets">
+
+            <h1>Животные</h1>
+            <div class="buttonsgroup">
+                <button id="button1" onclick="pet1()">Щенки</button>
+                <button id="button2" onclick="pet2()">Собаки</button>
+                <button id="button3" onclick="pet3()">Кошки</button>
+            </div>
+
+            <div class="imagebox" id="imagebox1">
+                <img src="src/images/dog-g06b04da2d_1920.jpg" width="200">
+                <img src="img/dog-young-dog-puppy-59965.jpeg" width="200">
+                <img src="img/pexels-photo-247619.jpeg" width="200">
+                <img src="img/photo_2023-05-12_19-19-48.jpg" width="200">
+            </div>
+
+            <div class="imagebox" id="imagebox2">
+                <img src="img/image_2006.jpg" width="200">
+                <img src="img/pexels-photo-7210748.webp" width="200">
+                <img src="img/pexels-blue-arauz-15701898.jpg" width="200">
+                <img src="img/alex.jpg" width="200">
+            </div>
+
+            <div class="imagebox" id="imagebox3">
+                <img src="img/pexels-evg-kowalievska-1170986.jpg" width="200">
+                <img src="img/pexels-kelvin-valerio-617278.jpg" width="200">
+                <img src="src/images/pexels-pixabay-104827.jpg" width="200">
+                <img src="img/pexels-pixabay-45201.jpg" width="200">
+            </div>
+
+        </div>
+
+        <div class="help-for-ace">
+            <div class="text1" id="vets">
+                <h1>Как помочь приюту?</h1>
+                <p>В нашем приюте для собак и кошек социализацией, уходом, выгулом, поиском хозяев занимаются
+                    добровольцы-волонтёры, поэтому мы будем очень рады вашей помощи</p>
+            </div>
+            <div class="vets">
+                <div class="box">
+                    <h3>Стать волонтёром</h3>
+                    <p>Волонтёр приезжает в приют не менее раза в неделю и помогает на постоянной основе</p>
+                </div>
+                <div class="box">
+                    <h3>Помочь с лечением</h3>
+                    <p>Иногда наши животные нуждаются в оплате сложных операций и терапии</p>
+                </div>
+                <div class="box">
+                    <h3> Привезти корм и инвентарь</h3>
+                    <p>Вы очень поможете нам, если привезёте корм и инвентарь для животных</p>
+                </div>
+            </div>
+
+            <!-- vets 2 IQ 99 level  -->
+
+            <div class="vets">
+                <div class="box">
+                    <h3>Помочь делом</h3>
+                    <p>Нам часто нужны фотографы, грумеры, водители и другие талантливые люди</p>
+                </div>
+                <div class="box">
+                    <h3>Взять животное на передержку</h3>
+                    <p>Взять животное на пару недель после операции или на время поиска нового дома</p>
+                </div>
+                <div class="box">
+                    <h3>Погулять с собаками</h3>
+                    <p>Наши подопечные грустят без общения, поэтому мы всегда рады вашему приезду</p>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <div class="foot">
+            <div class="helps">
+                <h1>Помощь приюту</h1>
+                <p>Отклик неравнодушных людей позволяет нам справляться с лечением и реабилитацией животных приюта,
+                    перевозить их в клинику и обратно, получать в дар лекарства и осуществлять многие другие важнейшие
+                    вещи.
+                    Вариантов помощи масса: от полной опеки больного животного до помощи перевозкой или даже простого
+                    репоста. </p>
+            </div>
+            <div class="help">
+                <p>🐕Помощь четвероногим друзьям в Нукусе по добровольной основе вместе с волонтёрами🐾
+                    Вы можете найти здесь верного друга, любимого питомца. Сбор на корм и расходы на лечения собак.
+                    9860350109997626 D.V
+                </p>
+            </div>
+            <div class="url">
+                <a href="https://www.instagram.com/lapki.nukus/#" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/nukus_fond_zooparka" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            </div> 
+        </div>
+
+        <div class="useful" id="info">
+            <h1>Будем рады встрече с вами!</h1>
+            <p>Поможем с посещением
+                Перед поездкой необходимо договориться с волонтёром о встрече. Ниже указаны контакты на случай, если у
+                вас остались вопросы. Приют НЕ принимает животных, пожалуйста, не звоните по этому поводу волонтерам.
+            </p>
+            <p>Виктория Джалгасбаева</p>
+            <a href="https://t.me/ZoovolunteerNukus" target="_blank"> <i class="fa-brands fa-telegram"></i></a>
+            <a href="https://instagram.com/btsfanviktor?igshid=MmJiY2I4NDBkZg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <script src="./java.js"></script>
+</body>
+
+</html>

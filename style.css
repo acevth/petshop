@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* shift + alt + Faxriddin */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1500px; */
+}
+
+.pro {
+    padding: -50px;
+    width: 100px;
+    text-align: center;
+    border: 1px yellow;
+    border-radius: 20px;
+    background-color: gold;
+}
+
+.next {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 0;
+    color: black;
+    padding: 3px;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(209, 196, 209);
+}
+
+a {
+    padding: 9px 20px;
+    color: black;
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a:hover {
+    color: blueviolet;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.next img {
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 70px;
+}
+
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #e9e7e9;
+    color: #545354;
+}
+
+.search {
+    width: 190px;
+    padding: 10px;
+}
+
+.submit {
+    display: none;
+}
+
+#sub {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #8c06c1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 35px;
+}
+
+#user {
+    align-items: center;
+    display: flex;
+}
+
+#user a {
+    flex-direction: row;
+    gap: 20px;
+    color: blueviolet;
+    font-size: 25px;
+}
+
+#user i:hover {
+    color: gold;
+}
+
+.main {
+    background-image: url(img/dog-g06b04da2d_1920.jpg);
+    min-height: 100vh;
+    display: flex;
+    padding: 0 5%;
+    margin: 0 10px;
+}
+
+.text {
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.photo,
+img {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.text {
+    margin: 0 0 20px 0;
+}
+
+.text div {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text h1 {
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.text h4 {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+/* help section start  */
+
+.help-for-ace {
+    background-color: rgb(245, 163, 188);
+    padding: 90px;
+}
+
+.text1 {
+    font-family: sans-serif;
+}
+
+.text1 h1 {
+    color: rgb(255, 221, 50);
+    margin-bottom: 40px;
+}
+
+.text1 p {
+    margin-bottom: 20px;
+    color: #545354;
+    width: 70%;
+}
+
+
+.vets {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.vets .box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #e9e7e9;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* help section end  */
+
+.foot {
+    background-color: rgb(223, 255, 244);
+    padding: 100px;
+}
+
+.helps h1 {
+    color: rgb(255, 221, 50);
+    margin-bottom: 30px;
+}
+
+.helps p {
+    width: 70%;
+}
+
+.url a {
+    margin-top: 50px;
+    color: #8c06c1;
+    font-size: 60px;
+}
+
+.useful {
+    padding: 20px;
+    background-color: rgb(46, 15, 76);
+}
+
+.useful p {
+    width: 70%;
+    margin-top: 20px;
+    color: rgb(116, 117, 118);
+}
+
+#info a {
+    margin-top: 20px;
+    color: aliceblue;
+}
